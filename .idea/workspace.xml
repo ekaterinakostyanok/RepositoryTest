@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ced6d8a-35ca-498d-b78e-de2b6ed204f6" name="Default" comment="added test for emailForm">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/workspace/Locators.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/workspace/Methods.java" />
-      <change type="DELETED" beforePath="D:\temp\temp\Lesson2Part2\src\Lesson2\Lesson2.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson2Part2.iml" afterPath="$PROJECT_DIR$/Lesson2Part2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/workspace/SeleniumInit.java" afterPath="$PROJECT_DIR$/src/workspace/SeleniumInit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tests/Tests.java" afterPath="$PROJECT_DIR$/src/Tests/Tests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    <list default="true" id="2ced6d8a-35ca-498d-b78e-de2b6ed204f6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Lesson2Part2.iws" />
@@ -45,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Locators.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Locators.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/workspace/Locators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.25487256">
               <caret line="10" column="88" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
               <folding />
             </state>
@@ -80,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tests/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74512744">
+            <state vertical-scroll-proportion="0.0">
               <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -551,7 +543,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429877352098</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added new test">
+      <created>1430146620387</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1430146620387</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -597,7 +595,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added test for emailForm" />
-    <option name="LAST_COMMIT_MESSAGE" value="added test for emailForm" />
+    <MESSAGE value="added new test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -865,21 +864,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/workspace/Locators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="88" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74512744">
+        <state vertical-scroll-proportion="0.0">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workspace/Locators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25487256">
+          <caret line="10" column="88" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
