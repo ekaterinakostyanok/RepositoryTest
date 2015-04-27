@@ -1,6 +1,7 @@
 package workspace;
 
 import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.openqa.selenium.By;
@@ -15,26 +16,19 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by kostyanok on 24.04.2015.
  */
-public class SeleniumInit {
-    public FirefoxDriver driver;
+public class SeleniumInit{
+    public static FirefoxDriver driver;
 
 
-    @Before
-    public void setupAndLogin() {
+    @BeforeClass
+    public static void setup() {
         driver = new FirefoxDriver();
         driver.get("https://mail.ru/");
         driver.manage().window().maximize();
-        WebElement emailField = driver.findElement(By.name("Login"));
-        WebElement passwordField = driver.findElement(By.name("Password"));
-        WebElement loginButton = driver.findElement(By.className("mailbox__auth__button"));
-        emailField.sendKeys("kate4130");
-        passwordField.sendKeys("18h262fq");
-        loginButton.click();
     }
 
-    @After
-    public void tearDown() {
-
+    @AfterClass
+    public static void tearDown() {
         driver.quit();
     }
 }
