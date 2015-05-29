@@ -4,6 +4,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Listeners;
 
 import java.util.concurrent.TimeUnit;
 
@@ -12,6 +13,7 @@ import static org.testng.AssertJUnit.fail;
 /**
  * Created by hp on 24.04.2015.
  */
+@Listeners(CaptureScreenShotOnFailureListener.class)
 public class ConfigurationManager {
     protected static WebDriver driver = null;
     protected String baseUrl = "https://mail.ru/";

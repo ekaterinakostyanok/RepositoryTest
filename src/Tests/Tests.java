@@ -1,15 +1,14 @@
 package Tests;
 
 import org.junit.Test;
-import workspace.ConfigurationManager;
-import workspace.LoginPage;
-import workspace.RegistrationData;
-import workspace.RegistrationPage;
+import org.testng.annotations.Listeners;
+import workspace.*;
 
 
 /**
  * Created by kostyanok on 24.04.2015.
  */
+@Listeners(CaptureScreenShotOnFailureListener.class)
 public class Tests extends ConfigurationManager {
 
 
